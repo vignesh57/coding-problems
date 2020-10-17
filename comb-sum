@@ -1,0 +1,15 @@
+
+1 2 3 4 5 6 7 8 9 11 [21]
+
+11 == 21 BREAK {Biggest number is lower, no single digit matches}
+
+9 + 11 < 21 BREAK {Biggest 2-digit combo is lower, no two digit matches}
+
+11 + 9 + 8 > 21 {3-digit combo and beyond is possible}
+11 + 9 + 7 > 21
+11 + 9 + 6 > 21
+.
+.
+.
+.
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 {repeat 1 for 21 times}
