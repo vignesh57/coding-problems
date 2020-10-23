@@ -62,7 +62,7 @@ class Change {
 }
 
 
-console.log( new Change().changePossibilitiesTopDown(4, [1, 2, 3]) );
+console.log( new Change().changePossibilitiesTopDown(6, [1]) );
 
 
 
